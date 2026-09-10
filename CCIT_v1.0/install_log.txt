@@ -1,0 +1,23 @@
+===== CCIT install run: 11-Sep-26  2:01:58.35 ===== 
+Using interpreter command: py -3 
+Python 3.14.2
+pip 26.2.1 from C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\pip (python 3.14)
+Free bytes on install drive: 437746335744 
+ERROR: Access is denied.
+Requirement already satisfied: pip in C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages (26.2.1)
+Requirement already satisfied: setuptools in C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages (84.0.0)
+Requirement already satisfied: wheel in C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages (0.48.0)
+Requirement already satisfied: packaging>=24.0 in C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages (from wheel) (26.2)
+Using pip 26.2.1 from C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\pip (python 3.14)
+Requirement already satisfied: PySide6>=6.6.0 in C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages (from -r ccit\requirements.txt (line 1)) (6.11.1)
+Requirement already satisfied: psutil>=5.9.0 in C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages (from -r ccit\requirements.txt (line 2)) (7.2.2)
+Requirement already satisfied: requests>=2.31.0 in C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages (from -r ccit\requirements.txt (line 3)) (2.34.2)
+Requirement already satisfied: chardet>=5.2.0 in C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages (from -r ccit\requirements.txt (line 4)) (7.4.3)
+Requirement already satisfied: shiboken6==6.11.1 in C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages (from PySide6>=6.6.0->-r ccit\requirements.txt (line 1)) (6.11.1)
+Requirement already satisfied: PySide6_Essentials==6.11.1 in C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages (from PySide6>=6.6.0->-r ccit\requirements.txt (line 1)) (6.11.1)
+Requirement already satisfied: PySide6_Addons==6.11.1 in C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages (from PySide6>=6.6.0->-r ccit\requirements.txt (line 1)) (6.11.1)
+Requirement already satisfied: charset_normalizer<4,>=2 in C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages (from requests>=2.31.0->-r ccit\requirements.txt (line 3)) (3.4.7)
+Requirement already satisfied: idna<4,>=2.5 in C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages (from requests>=2.31.0->-r ccit\requirements.txt (line 3)) (3.13)
+Requirement already satisfied: urllib3<3,>=1.26 in C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages (from requests>=2.31.0->-r ccit\requirements.txt (line 3)) (2.7.0)
+Requirement already satisfied: certifi>=2023.5.7 in C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages (from requests>=2.31.0->-r ccit\requirements.txt (line 3)) (2026.4.22)
+pip exit code: 0 

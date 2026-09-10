@@ -1,0 +1,63 @@
+{
+    "app": {
+        "name": "Cyber Crime Investigation Tool",
+        "short_name": "CCIT",
+        "version": "1.0.0",
+        "author": "CCIT Security Team",
+        "description": "Professional Desktop Cybersecurity Investigation Suite"
+    },
+    "ui": {
+        "theme": "neon_dark",
+        "accent_color": "#00FF41",
+        "secondary_accent": "#FF0055",
+        "font_family": "Courier New",
+        "font_size": 12,
+        "animations_enabled": true,
+        "sidebar_width": 220
+    },
+    "network": {
+        "monitor_interval": 2000,
+        "max_connections_display": 100,
+        "packet_buffer_size": 1000,
+        "suspicious_port_threshold": 5
+    },
+    "scanner": {
+        "request_timeout": 10,
+        "max_redirects": 5,
+        "user_agent": "CCIT-Scanner/1.0",
+        "verify_ssl": false
+    },
+    "database": {
+        "path": "database/ccit.db",
+        "backup_enabled": true,
+        "max_scan_history": 500
+    },
+    "logging": {
+        "level": "INFO",
+        "max_log_size_mb": 50,
+        "log_file": "logs/ccit.log",
+        "console_logging": true
+    },
+    "reports": {
+        "output_dir": "reports",
+        "default_format": "html",
+        "include_raw_data": true
+    },
+    "update": {
+        "check_on_startup": false,
+        "update_url": "",
+        "offline_mode": true
+    },
+    "plugins": {
+        "directory": "plugins",
+        "enabled": true,
+        "auto_load": true
+    },
+    "threat_scoring": {
+        "low_threshold": 30,
+        "medium_threshold": 60,
+        "high_threshold": 80,
+        "critical_threshold": 95
+    },
+    "demo_mode": true
+}
